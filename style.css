@@ -1,0 +1,29 @@
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+html, body {
+    margin: 0;
+    height: 100%;
+    font-family: 'Noto Sans TC', sans-serif;
+    -webkit-font-smoothing: antialiased;
+    background: #1e1e1e;
+    color: white;
+}
+
+#app, main {
+    height: 100%;
+}
+
+h1 {
+    font-size: 6vw;
+}
+
+.counter--container span {
+    font-size: 5.5vw;
+    font-family: "JetBrains Mono", "Noto Sans TC", sans-serif;
+    font-weight: 600;
+}
